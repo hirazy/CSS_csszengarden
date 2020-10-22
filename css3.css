@@ -1,0 +1,170 @@
+html {
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    line-height: 1.88889;
+    color: rgb(83, 210, 220);
+    background: url("") right bottom no-repeat rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+h3 {
+    font: italic 1.4em georgia, sans-serif;
+    letter-spacing: 1px;
+    margin-left: 160px;
+    color: rgb(190, 163, 38);
+}
+
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(183, 165, 223);
+}
+
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(189, 134, 252);
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: underline;
+    color: rgb(150, 133, 186);
+}
+
+abbr {
+    border-bottom: none;
+}
+
+.page-wrapper {
+    background: url("./black-wide-technology-background_79145-249.jpg") left top;
+    position: relative;
+}
+
+.intro {}
+
+header h1 {
+    vertical-align: middle;
+    background: url("./coollogo_com-7332614.gif") left top no-repeat transparent;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    float: left;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+header h2 {
+    background: url("./467e85c1-dd42-46b8-9dc6-3c7550a9495e_200x200.png") left top no-repeat transparent;
+    float: right;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+header {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.summary {
+    clear: both;
+    float: left;
+}
+
+.summary p {
+    font: italic 1.1em / 2.2 georgia;
+    text-align: center;
+}
+
+.preamble {
+    clear: right;
+    padding: 0px 10px;
+    margin-top: 155px;
+}
+
+.supporting {}
+
+footer {
+    text-align: center;
+}
+
+footer a:link,
+footer a:visited {
+    margin-right: 20px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.sidebar .wrapper {
+    font: 10px verdana, sans-serif;
+    background: url("http://csszengarden.com/001/paper-bg.jpg") left top repeat-y transparent;
+}
+
+.sidebar h3.select {
+    background: url("http://csszengarden.com/001/h3.gif") left top no-repeat transparent;
+    margin: 10px 0px 5px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sidebar h3.archives {
+    background: url("http://csszengarden.com/001/h5.gif") left top no-repeat transparent;
+    margin: 25px 0px 5px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sidebar h3.resources {
+    background: url("http://csszengarden.com/001/h6.gif") left top no-repeat transparent;
+    margin: 25px 0px 5px;
+    width: 63px;
+    height: 10px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sidebar ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar li {
+    line-height: 1.3em;
+    background: url("http://csszengarden.com/001/cr1.gif") center top no-repeat transparent;
+    display: block;
+    list-style-type: none;
+}
+
+.sidebar li a:link {
+    color: rgb(152, 143, 94);
+}
+
+.sidebar li a:visited {
+    color: rgb(179, 174, 148);
+}
+
+.extra1 {
+    background: url("http://csszengarden.com/001/cr2.gif") left top no-repeat transparent;
+    position: absolute;
+}
